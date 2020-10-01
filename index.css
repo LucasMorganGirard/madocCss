@@ -1,0 +1,66 @@
+.custom_course_menu_list, not_collapsed{/*ul*/
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.custom_course_menu_course{/*li*/
+ border: solid 1px;
+ border-radius: 3px;
+ flex-grow: 1;
+ flex-basis: 20%;
+ margin: .25em!important;
+}
+.courselist_course.scrollable, .courselist_course{/*a*/
+ display: block;
+ width: 100%;
+ height: 100%;
+ max-width: 100%;
+ white-space: normal;
+ transition: all 0.2s;
+}
+
+.courselist_course.scrollable:hover, .courselist_course:hover{
+ background-color: #0000001c;
+ color: white!important;
+}
+
+.custom_course_menu_course a span{/*span in a*/
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ padding: 10px;
+ text-align: center;
+ line-height: 25px;
+ font-variant: small-caps;
+ letter-spacing: 0.2em;
+}
+
+.block_custom_course_menu .header{
+ display:none;
+}
+
+.content{
+ background-image: url(https://www.androsrestauration.fr/media/cache/product_picture_card/uploads/products/andros-pur-jus-ananas-presses-1l_5f1e9baabc9c1.png)!important;
+}
+
+/*remove header*/
+#page-header{
+ display: none!important;
+}
+
+#above-header{
+ display: none!important;
+}
+
+#page-footer{
+ display: none!important;
+}
+
+div.header {
+    /*display: none;*/
+}
+
+*{
+ color: black!important;
+ border-color: black!important;
+}
